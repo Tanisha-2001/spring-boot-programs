@@ -1,0 +1,5 @@
+package com.cdac.training.repository;
+
+public class ProductRepository {
+
+}

@@ -1,0 +1,5 @@
+package com.cdac.training.controller;
+
+public class ProductController {
+
+}

@@ -1,0 +1,5 @@
+package com.cdac.training.productsoft.model;
+
+public class Product {
+
+}

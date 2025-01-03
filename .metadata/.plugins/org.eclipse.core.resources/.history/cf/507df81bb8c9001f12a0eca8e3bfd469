@@ -1,0 +1,50 @@
+//package com.cdac.training.productsoft.service;
+//
+//import org.springframework.stereotype.Service;
+//
+//import com.cdac.training.productsoft.model.Product;
+//import com.cdac.training.productsoft.repository.ProductRepository;
+//
+///**
+// * Author : rajgs
+// * Date   : 31 Dec 2024
+// * Time   : 5:30:06 pm
+//*/
+//
+//@Service
+//public class ProductService {
+//	
+//	private final ProductRepository productRepository; 
+//	
+//	// Constructor DI
+//	public ProductService(ProductRepository productRepository) {
+//		this.productRepository = productRepository;
+//	}
+//	
+//	public Product saveProduct(Product p) {
+//		return productRepository.save(p); //invokes pred-defined method save() of JPA Repo
+//	}
+//
+//	
+//	
+//	
+//
+//}
+
+package com.cdac.training.productsoft.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.cdac.training.productsoft.model.Product;
+import com.cdac.training.productsoft.repository.ProductRepository;
+
+@Service
+public class ProductService {
+    @Autowired
+    private ProductRepository productRepository;
+
+    public Product saveProduct(Product p) {
+        return productRepository.save(p);
+    }
+}
+

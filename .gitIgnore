@@ -1,0 +1,57 @@
+# Eclipse specific files
+**/.project
+**/.classpath
+**/.settings/
+
+# Maven specific files
+**/target/
+!**/src/main/resources/static/
+
+# Gradle specific files
+**/.gradle/
+**/build/
+
+# STS specific files
+**/.springBeans
+
+# IntelliJ specific files
+**/.idea/
+**/*.iml
+**/*.iws
+
+# VS Code specific files
+**/.vscode/
+
+# Log files
+**/*.log
+
+# Temporary files
+**/tmp/
+**/*.tmp
+**/*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# JAR files
+**/*.jar
+
+# WAR files
+**/*.war
+
+# Other generated files
+**/generated/
+
+# Exclude Maven wrapper files if you're not using them
+**/.mvn/wrapper/maven-wrapper.properties
+**/.mvn/wrapper/maven-wrapper.jar
+
+# IDE project files
+**/*.idea
+
+# Thumbnails
+**/assets/thumbs/
+
+# Ignore node_modules folder
+**/node_modules/

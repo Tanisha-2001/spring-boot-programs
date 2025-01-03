@@ -1,0 +1,33 @@
+package com.cdac.training.springcore.model;
+
+public class Person {
+String name;
+int pId;
+Address a;
+
+public void setA(Address a) {
+	this.a = a;
+}
+
+public Person()
+{
+	}
+
+public void setName(String name) {
+	this.name = name;
+}
+
+public void setpId(int pId) {
+	this.pId = pId;
+}
+
+public void display()
+{
+System.out.println(this.name+" "+this.pId);
+System.out.println(a);
+System.out.println(a);
+
+}
+
+}
+ 
