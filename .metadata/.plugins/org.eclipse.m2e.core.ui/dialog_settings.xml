@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\91798\Enterprise\product-management\src\main\java\com\cdac\training\productsoft\controller\ProductController.java"/>
 			<item value="D:\91798\Enterprise\HelloWorld\src\main\java\com\paliwal\HelloWorld.java"/>
 			<item value="D:\Spring_workspace"/>
 		</list>
@@ -27,18 +28,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.cdac.training.spring.SpringMVC"/>
-			<item value="com.cdac.training.spring.SpringCore"/>
-			<item value="com.cdac.training.springcore"/>
 		</list>
 		<list key="groupId">
-			<item value="com.cdac.training.spring"/>
-			<item value="com.cdac.training"/>
 		</list>
 		<list key="artifactId">
-			<item value="SpringMVC"/>
-			<item value="SpringCore"/>
-			<item value="spring-core"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
